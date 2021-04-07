@@ -1,0 +1,184 @@
+/* ABOUT PAGE~~~~~~~~~~~~~~~~~~~ */
+
+/* main */
+
+main{
+    margin: 0;
+}
+
+.about img{
+    max-width: 12.5rem;
+    border-radius: 50%;
+    
+}
+
+.about-section{
+    margin: 6.25rem 4rem;
+}
+
+.about-info{
+    padding: 3.125rem 0;
+
+}
+
+.about-me{
+    line-height: 1.5;
+    
+}
+
+.about-me p{
+    padding: 0.25rem 0;
+    text-align: left;
+}
+
+.likes{
+    padding: 6.25rem 4rem;
+    text-align: left;
+    background-color: #ffebb380;
+   
+}
+
+.likes ul{
+    margin: 0;
+    padding: 0;
+
+}
+.likes li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.likes-title{
+    display: block;
+    font-weight: 600;
+    color: #666666;
+}
+
+.likes h2{
+    color: #333333;
+    padding-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    background-color: #E4E8FD;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.contact{
+    padding: 3.125rem 0 1.25rem 0;
+}
+
+.get-in-touch, .about-links{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.email{
+  
+
+    list-style-type: none;
+    padding: 0.625rem 0;
+}
+
+.email a{
+    color: #666666;
+    text-decoration: none;
+}
+
+.email a:hover{
+    color: #a5b4f9;
+    transition: 0.3s;
+}
+
+footer i{
+    padding-right: 1.25rem;
+    font-size: 1rem;
+}
+
+.links{
+    padding-bottom: 1.25rem;
+}
+
+.links ul{
+    padding: 0;
+    margin: 0;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 0.625rem 0;
+
+
+}
+
+.links a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.links a:hover{
+    color: #a5b4f9;
+    transition: 0.3s;
+}
+
+.about-copyright{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding-bottom: 3.125rem;
+}
+
+
+/* MEDIA QUERY */
+
+
+/* TABLET SIZE min 800px */
+
+@media screen and (min-width: 800px){
+
+
+.about-section{
+    max-width: 50rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 6.25rem 0;
+}
+
+.about-info{
+    padding: 0;
+    text-align: left;
+}
+
+.likes h2, .likes ul{
+    max-width: 40rem;
+    margin: auto;
+
+    
+}
+
+
+
+
+}
+
+/* End of tablet size 600px */
+
+
+
+/* Desktop size min 900px */
+
+
+
+/* end of desktop size */

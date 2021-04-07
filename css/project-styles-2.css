@@ -1,0 +1,170 @@
+.project-content p, .project-content h4{
+    margin: 1.5rem 2%;
+}
+
+.project-content p{
+    line-height: 1.5;
+}
+
+.project-content{
+    margin-bottom: 5rem;
+}
+
+.title{
+    margin: 6rem 2% 3rem 2%;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b5d0ea;
+}
+
+.case-study-name{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.pitch{
+    margin: auto 2.5rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.overview-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin: 3rem 2%;
+}
+
+.role, .duration, .type, .tools-used{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.roles, .time, .project-type, .tools{
+    font-weight: 300;
+    line-height: 1.5;
+    display: block;
+    font-size: 1rem;
+}
+
+.sketches{
+    max-width: 70%;
+    margin: auto;
+
+}
+
+.sketches img{
+    margin-bottom: 1rem;
+}
+
+.comparison{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+ol li{
+    padding-bottom: 1rem;
+}
+
+.nav-content{
+    display: none;
+}
+
+.view-prototype{
+    margin-top: 2rem;
+}
+
+.view-prototype a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    background-color: #b5d0ea;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    margin-left: 2%;
+    
+}
+
+.view-prototype a:hover{
+    color: #333;
+    background-color:#b5d0ea80;
+    transition: 0.3s;
+}
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px){
+
+    .project-content{
+        margin: 3rem 5%;
+    }
+
+
+}
+
+@media screen and (min-width: 900px){
+    .project-content{
+        max-width: 600px;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+        margin-left: 17rem;
+        margin-right: auto;
+    }
+
+    .sketches{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:1rem;
+    }
+
+    /* side nav */
+
+    .nav-content{
+        position: fixed;
+        top: 16rem;
+        left: 3rem;
+        display: block;
+    }
+
+    .desktop-side-nav ul{
+        margin: 0;
+        padding: 0;
+        line-height: 2;
+        font-size: 1.15rem;
+        font-weight: 400;
+     
+
+    }
+
+    .desktop-side-nav li{
+        list-style-type: none;
+    }
+
+    .desktop-side-nav a{
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .desktop-side-nav a:hover{
+        color: #333333;
+        transition: 0.3s;
+        
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+    .project-content{
+        max-width: 800px;
+        margin-left: 20rem;
+       
+    }
+
+}
