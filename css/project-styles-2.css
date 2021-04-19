@@ -73,11 +73,11 @@ ol li{
     display: none;
 }
 
-.view-prototype{
+.view-link{
     margin-top: 2rem;
 }
 
-.view-prototype a{
+.view-link a{
     text-decoration: none;
     color: #ffffff;
     padding: 1rem;
@@ -88,10 +88,27 @@ ol li{
     
 }
 
-.view-prototype a:hover{
+.view-link a:hover{
     color: #333;
     background-color:#b5d0ea80;
     transition: 0.3s;
+}
+
+.caption{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.view-link{
+    margin-bottom: 3rem;
 }
 /* MEDIA QUERIES */
 
@@ -143,16 +160,33 @@ ol li{
         list-style-type: none;
     }
 
-    .desktop-side-nav a{
+    .desktop-side-nav .side-nav ul li a{
         text-decoration: none;
         color: #999999;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 1rem;
+        font-weight: 700;
     }
 
-    .desktop-side-nav a:hover{
+    .desktop-side-nav .side-nav ul li a:hover{
         color: #333333;
         transition: 0.3s;
         
     }
+
+    .desktop-side-nav .side-nav ul li.active{
+    
+        background-color: #E4E8FD;
+        border-radius: 5px;
+     
+    }
+
+    .desktop-side-nav .side-nav ul li.active a{
+        color: #333333;
+     
+    }
+
 
 
 
