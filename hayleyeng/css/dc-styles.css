@@ -1,0 +1,72 @@
+.badge-title{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.badge{
+    max-width: 25%;
+    height: auto;
+}
+
+.title{
+    color: #5C833E;
+    margin: 0 2rem;
+
+}
+
+.orange-title{
+    color: #F5953A;
+}
+
+.tri-comparison{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.third-image{ 
+    grid-column: span 2;
+    display: center;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.thank-you{
+    text-align: center;
+    margin: auto;
+    color: #F5953A;
+    font-style: italic;
+}
+
+@media screen and (min-width: 600px){
+    .badge{
+        max-width: 15%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    
+
+    .desktop-side-nav .side-nav ul li.active {
+    background-color: #D9E6CF;
+    }
+
+
+    .image-resize{
+        max-width: 75%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    
+
+}
+
