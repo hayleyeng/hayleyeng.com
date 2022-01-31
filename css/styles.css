@@ -160,23 +160,25 @@ main{
 .behance-link{
     text-align: center;
     margin: auto;
+    background-color: #333333;
+    padding: 0.5rem 0;
+    font-size: 1rem;
 }
 
 .behance-link a{
-    color: #333333;
+    color: #a5b4f9;
     text-decoration: none;
-    border-bottom: 2.5px solid #333333;
+    /* border-bottom: 2.5px solid #333333; */
     padding-bottom: 0.25rem;
     font-weight: 700;
 }
 
 .behance-link a:hover{
-    color: #a5b4f9;
+    color: #E4E8FD;
     padding-bottom: 0.5rem;
-    border-bottom: 2.5px solid #a5b4f9;
+    /* border-bottom: 2.5px solid #a5b4f9; */
     transition: 0.3s;
 }
-
 
 /* footer */
 
@@ -408,9 +410,9 @@ header{
 
 
 .work-gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    display: block;
+    /* grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem; */
 
     max-width: 31.25rem;
 margin: auto;
@@ -421,7 +423,7 @@ margin: auto;
     border-radius: 0.3125rem;
 
     text-align: left;
-    margin-top: 0.9375rem;
+    /* margin-top: 0.9375rem; */
     padding: 0.625rem 0.9375rem;
 
     line-height: 1.25;
