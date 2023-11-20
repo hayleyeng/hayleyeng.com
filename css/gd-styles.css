@@ -23,6 +23,24 @@ section{
     font-size: 1.5rem;
 }
 
+.travel-link{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.travel-link a{
+    color: #333333;
+    background-color: #E4E8FD;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.travel-link a:hover{
+    background-color: #a5b4f9;
+    transition: 0.3s;
+}
+
 .details{
     display: grid;
     grid-template-columns: 1fr 1fr;
