@@ -1,6 +1,4 @@
-.project-content p, .project-content h4{
-    margin: 1.5rem 2%;
-}
+
 
 .project-content p{
     line-height: 1.5;
@@ -110,6 +108,14 @@ ol li{
 .view-link{
     margin-bottom: 3rem;
 }
+
+
+/* .videos{
+    margin-bottom: 1rem;
+} */
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 600px){
@@ -117,6 +123,23 @@ ol li{
     .project-content{
         margin: 3rem 5%;
     }
+
+    .videos, .grid-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+    }
+
+    .single-video{
+        display: block;
+        max-width: 75%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
 
 
 }
@@ -165,7 +188,7 @@ ol li{
         color: #999999;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.85rem;
         font-weight: 700;
     }
 
@@ -187,7 +210,7 @@ ol li{
      
     }
 
-
+    
 
 
 
