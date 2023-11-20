@@ -1,0 +1,149 @@
+section{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.project-intro{
+    padding-top: 5rem;
+}
+
+.gd-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333333;
+    background-color: #E4E8FD;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.sub-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.tools{
+    margin-bottom: 1rem;
+}
+
+.used, .media-type{
+    font-size: 1rem;
+    font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 0.5rem;
+}
+
+
+.media p{
+    margin: 0;
+}
+
+.tools-image{
+    padding-right: 0.5rem;
+}
+
+.colour-palette{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-options{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap:3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.logo-word{
+    max-width: 90%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.logo-full{
+    max-width: 80%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.logo-icon{
+    max-width: 35%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.project1-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.caption2{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.caption2 p{
+    margin: 0;
+}
+
+.image-resize{
+    display:block;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+
+}
+
+.image-resize3{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    justify-content: center;
+}
+
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+.travel-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+ 
+}
+
+
+@media screen and (min-width: 600px){
+    .project-intro{
+        padding-top:0 !important;
+    }
+
+
+
+}
