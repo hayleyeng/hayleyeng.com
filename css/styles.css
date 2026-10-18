@@ -82,8 +82,7 @@ header{
 /* intro */
 
 main{
-    margin: 6.25rem 4rem;
-
+    margin: 4rem;
 
 }
 
@@ -94,9 +93,10 @@ main{
 }
 
 .introduction{
+    
     line-height: 1.5;
     margin-bottom: 2.5rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 /* work */
@@ -176,6 +176,30 @@ main{
 .behance-link a:hover{
     color: #E4E8FD;
     padding-bottom: 0.5rem;
+    /* border-bottom: 2.5px solid #a5b4f9; */
+    transition: 0.3s;
+}
+
+/* portfolio button */
+.portfolio-link{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.portfolio-link a{
+   text-decoration: none;
+    color: #333333;
+    padding: 1rem 2rem;
+    background-color: #a5b4f9;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.portfolio-link a:hover{
+    color:white;
     /* border-bottom: 2.5px solid #a5b4f9; */
     transition: 0.3s;
 }
@@ -398,7 +422,7 @@ header{
 
 
 .hello-intro{
-    width: 31.25rem;
+    /* width: 31.25rem; */
     margin: auto;
     
 }
